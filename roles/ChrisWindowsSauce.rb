@@ -7,7 +7,8 @@ description "#{rolename} for :ii"
 run_list(
   "recipe[ii-win]",
   "recipe[ii-win::sublime]",
-  "recipe[ii-win::background]"
+  "recipe[ii-win::background]",
+  "recipe[ii-win::chef-client-icon]"
   )
 
 default_attributes(
